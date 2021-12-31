@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ruth's Messaging Service</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Ruth's Messaging Service</h1>
+            </header>
+            <form action="http://localhost:3000/" method="POST">
+                <label for="msg">Message</label><br />
+                <textarea rows="4" cols = "40"id="msg" name="msg"></textarea><br />
+                <label for="cars">From:</label>
+                <select id="sender" name="sender">
+                    <option value="Mark">Mark</option>
+                    <option value="Kate">Kate</option>
+                    <option value="Rick">Rick</option>
+                </select>
+                <input id="submit" type="submit" value="Submit" />
+            </form>
+        </div>
+    </body>
+</html>

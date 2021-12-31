@@ -1,0 +1,50 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    --clr-background: hsl(278, 100%, 83%);
+    --clr-foreground: hsl(278, 100%, 88%);
+    --clr-text: #10002b;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+h1 {
+    padding: 2rem;
+}
+textarea {
+    background-color: var(--clr-foreground);
+    padding: 0.5rem;
+}
+#submit {
+    background-color: #7b2bcf;
+    color: var(--clr-background);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 2rem;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: var(--clr-foreground);
+    color: var(--clr-text);
+}
+.container {
+    background-image: linear-gradient(
+        45deg,
+        hsl(278, 100%, 83%),
+        hsl(278, 100%, 88%)
+    );
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 1rem;
+}
