@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
 app.post('/', (req,res) => {
     message.message = req.body.msg;
     message.sender = req.body.sender;
-    res.redirect('http://127.0.0.1:5500/index.html');
+    res.redirect('https://romeosierra.info/ruth.html');
 })
 
 app.listen(port, () => {

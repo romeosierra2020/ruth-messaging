@@ -15,7 +15,7 @@ html {
 h1 {
     padding: 2rem;
 }
-textarea {
+textarea, option, select {
     background-color: var(--clr-foreground);
     padding: 0.5rem;
 }
