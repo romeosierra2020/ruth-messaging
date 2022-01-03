@@ -13,7 +13,6 @@ app.get('/', (req, res) => {
 app.post('/', (req,res) => {
     message.message = req.body.msg;
     message.sender=req.body.sender;
-    res.send('<div class="container"><h1>Message Sent</h1></div>')
 })
 
 app.listen(port, () => {

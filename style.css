@@ -19,7 +19,7 @@ textarea {
     background-color: var(--clr-foreground);
     padding: 0.5rem;
 }
-#submit {
+#submit, #reset {
     background-color: #7b2bcf;
     color: var(--clr-background);
     padding: 0.5rem;
@@ -28,7 +28,7 @@ textarea {
     cursor: pointer;
 }
 
-#submit:hover {
+#submit:hover, reset:hover {
     background-color: var(--clr-foreground);
     color: var(--clr-text);
 }
