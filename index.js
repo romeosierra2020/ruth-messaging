@@ -13,10 +13,10 @@ app.get('/', (req, res) => {
 app.post('/', (req,res) => {
     message.message = req.body.msg;
     message.sender = req.body.sender;
-    res.json(message)
+    res.json(req.body.msg)
     // res.redirect('https://romeosierra.info/ruth.html');
 })
 
 app.listen(port, () => {
     console.log(`Listening Port ${port}`)
-})
+});
