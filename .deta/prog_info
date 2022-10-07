@@ -1,0 +1,1 @@
+{"id":"fc122f31-32e2-4ff8-ba63-2cfab40f427d","space":34421,"runtime":"nodejs14.x","name":"ruth","path":"ldn3o7","project":"a0wxaw0q","account":"144798365827","region":"eu-central-1","deps":["dotenv@^10.0.0","express@^4.17.2"],"envs":["PORT"],"public":true,"log_level":"debug","cron":""}

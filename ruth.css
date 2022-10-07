@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 html {
+    background-color: #10002b;
     --clr-background: hsl(278, 100%, 83%);
     --clr-foreground: hsl(278, 100%, 88%);
     --clr-text: #10002b;
@@ -16,11 +17,11 @@ h1 {
     padding: 2rem;
 }
 textarea, option, select {
-    background-color: var(--clr-foreground);
+    background-color: hsl(278, 100%, 90%);
     padding: 0.5rem;
 }
 #submit, #reset {
-    background-color: #7b2bcf;
+    background-color: hsl(269, 66%, 49%);
     color: var(--clr-background);
     padding: 0.5rem;
     border-radius: 0.5rem;
@@ -35,8 +36,10 @@ textarea, option, select {
 .container {
     background-image: linear-gradient(
         45deg,
-        hsl(278, 100%, 83%),
-        hsl(278, 100%, 88%)
+        hsl(278, 100%, 50%),
+        hsl(278, 100%, 88%),
+        hsl(278, 100%, 50%)
+        
     );
     position: absolute;
     top: 50%;

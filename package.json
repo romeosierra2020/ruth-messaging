@@ -1,8 +1,8 @@
 {
   "name": "ruth",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
+  "entrypoints": ["index.js"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +11,15 @@
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.2"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romeosierra2020/ruth-messaging.git"
+  },
+  "bugs": {
+    "url": "https://github.com/romeosierra2020/ruth-messaging/issues"
+  },
+  "homepage": "https://github.com/romeosierra2020/ruth-messaging#readme",
+  "description": ""
 }
