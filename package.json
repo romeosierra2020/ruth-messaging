@@ -2,7 +2,6 @@
   "name": "ruth",
   "version": "1.0.0",
   "main": "index.js",
-  "entrypoints": ["index.js"],
   "scripts": {
     "start": "index.js"
   },
